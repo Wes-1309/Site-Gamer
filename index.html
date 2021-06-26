@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Projeto de Website</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+
+    <header class="menu-principal">
+        <main>
+            <div class="header_1">
+                <div class="logo">
+                    <img src="img/omegle-logo.png" style="width: 180px; height: 40px;">
+                </div>
+                <div class="redes-sociais">
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/wesley-coelho-0a63b629/" target="_blank"><img src="img/linkedin.PNG" alt=""></a></li>
+                        <li><a href="https://www.facebook.com/wesley.coelho.144" target="_blank"><img src="img/facebook.PNG" alt=""></a></li>
+                        <li><a href="#"><img src="img/tweet.PNG" alt=""></a></li>
+                        <li><a href="https://www.instagram.com/wesleycoelhojoyce/" target="_blank"><img src="img/barra.PNG" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </header>
+    <main class="col_100 menu_url">
+        <div class="header_2">
+            <div class="menu">
+                <ul>
+                    <li><a href="">Página</a></li>
+                    <li><a href="">Sobre nós</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="">Links</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </div>
+            <div class="busca">
+                <input placeholder="Search Something" type="text" />
+            </div>
+        </div>
+    </main>
+
+    <section class="col_100 slideshow-container">
+
+        <div class="slide fade">
+            <img src="img/banner2.PNG" style="width: 100%;" class="imgSlide">
+        </div>
+
+        <div class="slide fade">
+            <img src="img/banner2.JPG" style="width: 100%;" class="imgSlide">
+        </div>
+
+        <div class="slide fade">
+            <img src="img/banner3.JPG" style="width: 100%;" class="imgSlide">
+        </div>
+
+        <div class="slide fade">
+            <img src="img/banner4.JPG" style="width: 100%;" class="imgSlide">
+        </div>
+
+        
+        <a class="btnAnterior" onclick="mudarSlide(-1)">&lsaquo;</a>
+        <a class="btnProximo" onclick="mudarSlide(1)">&rsaquo;</a>
+
+    </section>
+
+    <section style="text-align: center;">
+        <span class="indicador" onclick="slideAtual(1)"></span>
+        <span class="indicador" onclick="slideAtual(2)"></span>
+        <span class="indicador" onclick="slideAtual(3)"></span>
+        <span class="indicador" onclick="slideAtual(4)"></span>
+    </section>
+
+    <div class="col_100">
+        <div class="content texto_destaque">
+            <h1>MAIORES <strong>CAMPEONATOS DE GAMERS</strong> DO BRASIL</h1>
+            <p>Com um mercado em crescimento, os e-Sports possuem uma legião de jogadores e torcedores, variando entre os diversos estilos de jogos, cada um com seu próprio campeonato. Para organizar a categoria, diversos campeonatos foram criados para segmentar os jogos e preparar seus competidores para torneios internacionais.</p>
+            
+            <div class="col-3 bloco_texto">
+                <a href="https://www.facebook.com/events/854972538181908/" target="_blank"><img src="img/tela.PNG" alt="Guarapuava Game Weekend"></a>
+                <h3><b>Guarapuava</b> game weekend</h3>
+                <P>Com o intuito de movimentar e apoiar ainda mais o cenário dos Games em Guarapuava/PR, a Nexcube e Reptec Store em parceria com o Centro Universitário Campo Real e a Optimus Creative and Technology School promovem o 1º Guarapuava Game Weekend!</P>
+            </div>
+            <div class="col-3 bloco_texto" style="margin-top: 80px;">
+                <a href="https://e-sporti.com.br/organizacao/gamecup" target="_blank"><img src="img/caneta.PNG" alt="Game Cup"></a>
+                <h3><b>Game Cup</b> Cotemig</h3>
+                <P>A 5ª Virada Cultural de BH aconteceu nos dias 20 e 21 de Julho, e contou com um espaço para os amantes da tecnologia: a Virada Tecnológica. Lá rolou a Game Cup, com campeonatos de LOL, FIFA e PES.</P>
+            </div>
+            <div class="col-3 bloco_texto">
+                <a href="https://valenews.com.br/2020/02/28/3a-edicao-do-game-show-vai-agitar-o-buriti-shopping-guara-em-marco/" target="_blank"><img src="img/imagem.PNG" alt="Game Show"></a>
+                <h3><b>O maior evento gamer</b> de Guaratinguetá está de volta</h3>
+                <p>1º Etapa: Cada jogador jogará uma partida rankeada, depois mostrará para o juiz contabilizar seus pontos.</p>
+                <p>Final:  20 melhores jogadores irão disputar a final em uma nova sala personalizada.</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <img src="img/seta.png" style="display: inline-block; float: left; position: relative; margin-left: 47%;">
+    </div>
+    <div class="col_100 seta" style=" padding-top: 20px; background-color: #eeeeee;">
+        <div class="content" style="margin-left: 15%; margin-top: 10px;">
+            <div class="bloco-imagem">
+                <img src="img/gamer 1.jpg">
+                <p><b>Lorem Ipsum is simply</b></p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the
+                    industry. Lorem
+                    Ipsum has been
+                    the and scrambled it.
+                    atype specimen
+                </p>
+            </div>
+            <div class="bloco-imagem">
+                <img src="img/gamer 2.jpg">
+                <p><b>Lorem Ipsum is simply</b></p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the
+                    industry. Lorem
+                    Ipsum has been
+                    the and scrambled it.
+                    atype specimen
+                </p>
+            </div>
+            <div class="bloco-imagem">
+                <img src="img/gamer 3.jpg">
+                <p><b>Lorem Ipsum is simply</b></p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the
+                    industry. Lorem
+                    Ipsum has been
+                    the and scrambled it.
+                    atype specimen
+                </p>
+            </div>
+        </div>
+        <div id="outro" class="content"  style="margin-left: 15%; margin-bottom: 10px;">
+            <div class="bloco-imagem">
+                <img src="img/gamer 4.jpg">
+                <p><b>Lorem Ipsum is simply</b></p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the
+                    industry. Lorem
+                    Ipsum has been
+                    the and scrambled it.
+                    atype specimen
+                </p>
+            </div>
+            <div class="bloco-imagem">
+                <img src="img/gamer 5.jpg">
+                <p><b>Lorem Ipsum is simply</b></p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the
+                    industry. Lorem
+                    Ipsum has been
+                    the and scrambled it.
+                    atype specimen
+                </p>
+            </div>
+            <div class="bloco-imagem">
+                <img src="img/gamer 6.jpg">
+                <p><b>Lorem Ipsum is simply</b></p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the
+                    industry. Lorem
+                    Ipsum has been
+                    the and scrambled it.
+                    atype specimen
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col_100">
+        <div class="content">
+            <h2 style="text-decoration: underline; color: rgb(48, 15, 78); text-align: center; font-size: 30px;">Patrocínio</h2>
+            <div class="col-4">
+                <a href="https://www.esportsearnings.com/games" target="_blank"><img src="img/logo_marca1.png" alt="Gamer Sport" title="Gamer Sport"></a>
+            </div>
+            <div class="col-4">
+                <a href="https://www.esportsearnings.com/games" target="_blank"><img src="img/logo_marca2.png" alt="Pro Gaming" title="Pro Gaming"></a>
+            </div>
+            <div class="col-4">
+                <a href="https://www.esportsearnings.com/games" target="_blank"><img src="img/logo_marca3.png" alt="Game with Fame" title="Game with Fame"></a>
+            </div>
+            <div class="col-4">
+                <a href="https://www.esportsearnings.com/games" target="_blank"><img src="img/logo_marca4.png" alt="TGG" title="TGG"></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="col_100 footer">
+            <div class="content">
+                <div class="col-4">
+                    <h3>Populr Post</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus earum, architecto eius, ex iste quos beatae voluptatem aspernatur.</p>
+                    <span class="clock">15-Junho-2021</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nam perspiciatis mollitia quo ducimus hic odio accusamus suscipit.</p>
+                    <span class="clock">15-Junho-2021</span>
+                </div>
+                <div class="col-4">
+                    <h3>Tags</h3>
+                    <p><strong>A Campeonato Gamer</strong> organizou a Copa do Sindicato dos Bancários ABC, Campeonato de FIFA 20,  que rolou durante a pandemia. Usamos  recursos de LIVE para realizar a transmissão ONLINE das partidas, foram 6 horas de muita emoção.</p>
+                    <p>A torcida dos competidores pode acompanhar o campeonato AO VIVO pelos canais do YouTube e Facebook do Sindicato, que rolou com muita sinergia e NARRAÇÃO PROFISSIONAL AO VIVO, tudo organizado pela equipe da Campeonato Gamer</p>
+                </div>
+                <div class="col-4">
+                    <h3>A little about us</h3>
+                    <p><strong>A Campeonato Gamer</strong> organizou a Copa do Sindicato dos Bancários ABC, Campeonato de FIFA 20,  que rolou durante a pandemia. Usamos  recursos de LIVE para realizar a transmissão ONLINE das partidas, foram 6 horas de muita emoção.</p>
+                    <p>A torcida dos competidores pode acompanhar o campeonato AO VIVO pelos canais do YouTube e Facebook do Sindicato, que rolou com muita sinergia e NARRAÇÃO PROFISSIONAL AO VIVO, tudo organizado pela equipe da Campeonato Gamer</p>
+                </div>
+                <div class="col-4">
+                    <h3>Get in touch</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus earum, architecto eius, ex iste quos beatae voluptatem aspernatur.</p><br>
+                    <div><span class="localizacao">Av. República das Américas, Centro-Cívico</span></div><br>
+                    <div><span class="email">wes.coelho@yahoo.com.br</span></div><br>
+                    <div><span class="phone">+55 41 99111-0224</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="col_100" style="background-image: url('img/footer2.jpg');">
+            <div class="content">
+                <div class="footer-sociais">
+                    <ul>
+                        <li><a href="#"><img src="img/linkedin.PNG" alt=""></a></li>
+                        <li><a href="#"><img src="img/facebook.PNG" alt=""></a></li>
+                        <li><a href="#"><img src="img/tweet.PNG" alt=""></a></li>
+                        <li><a href="#"><img src="img/barra.PNG" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+        
+    
+    <script type="text/javascript" src="js/pagina_principal.js"></script>
+</body>
+</html>

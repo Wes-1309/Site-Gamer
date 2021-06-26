@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="css/cadastro.css">
+
+    <script>
+        function alerta() {
+            window.alert("Cadastro Concluído!")
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="borda">
+        <div>
+            <h1 id="titulo">Cadastro de Gamers</h1>
+            <p id="subtitulo">Complete suas informações</p>
+            <br>
+        </div>
+        <form action="">
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset>
+            <div class="campo">
+                <label for="email"><strong>E-mail</strong></label>
+                <input type="email" name="e-mail" id="e-mail" required>
+            </div>
+            <div class="campo">
+                <label for=""><strong>Qual o game que mais se adapta?</strong></label>
+                <label for="">
+                    <input type="radio" name="game" value="Plasystation" checked>Plasystation
+                </label>
+                <label for="">
+                    <input type="radio" name="game" value="Xbox">Xbox
+                </label>
+                <label for="">
+                    <input type="radio" name="game" value="PC">PC
+                </label>
+            </div>
+            <div class="campo">
+                <label for="senioridade"><strong>Nível de jogabilidade?</strong></label>
+                <select name="" id="senioridade">
+                    <option selected disabled value="">Selecione</option>
+                    <option value="">Iniciante</option>
+                    <option value="">Profissional</option>
+                    <option value="">Legendário</option>
+                </select>
+            </div>
+            <fieldset class="grupo">
+                <div class="check">
+                    <label for=""><strong>Selecione o tipo de jogo:</strong></label><br><br>
+                    <input type="checkbox" name="tecnologia1" id="tecnologia1" value="acao">
+                    <label for="tecnologia1">Ação</label>
+                    <input type="checkbox" name="tecnologia2" id="tecnologia2" value="esporte">
+                    <label for="tecnologia2">Esporte</label>
+                    <input type="checkbox" name="tecnologia3" id="tecnologia3" value="Jogosdetiro">
+                    <label for="tecnologia3">Jogos de tiro</label>
+                    <input type="checkbox" name="tecnologia4" id="tecnologia4" value="RPG">
+                    <label for="tecnologia3">RPG</label>
+                    <input type="checkbox" name="tecnologia5" id="tecnologia5" value="Corrida">
+                    <label for="tecnologia5">Corrida</label><br>
+                    <input type="checkbox" name="tecnologia6" id="tecnologia6" value="Plataforma">
+                    <label for="tecnologia6">Plataforma</label>
+                    <input type="checkbox" name="tecnologia7" id="tecnologia7" value="outros">
+                    <label for="tecnologia3">Outros</label>
+                </div>
+            </fieldset>
+            <div class="campo">
+                <br>
+                <label for=""><strong>Conte um pouco da sua experiência</strong></label>
+                <textarea name="experiencia" id="experiencia" rows="5" style="width: 28em;"></textarea>
+            </div>
+            <button class="botao" type="submit" onclick="alerta(this)">Concluído</button>
+            <a href="index.html">Voltar</a>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
